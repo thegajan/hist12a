@@ -1,0 +1,123 @@
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+#bib-full {
+  background-color: #F5F5DC;
+  color: rgb(0, 0, 0);
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+#bib-container ul li {
+  margin-left: 20px;
+  list-style: decimal;
+  text-align: left;
+}
+
+#bib-container {
+  padding: 10px 0px;
+  border-top: 1px solid #bdc3c7;
+  margin: 0px 10px;
+}
+
+#arrow {
+  cursor: pointer;
+  color: #F5F5DC;
+}
+
+#nested-ul li {
+  margin-left: 60px;
+  list-style: circle;
+}
+
+section.module h2 {
+  color: #303952;
+  /* margin-bottom: 40px; */
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+
+section.module span {
+  color: #303952;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+  /* background-color: #F5F5DC; */
+  color: #303952;
+  background-color: #F8EFBA;
+}
+
+section.module.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  /* color: #F5F5DC; */
+  color: #4b6584;
+  opacity: 0.9;
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+  background-image: url('../img/title.jpg');
+}
+
+section.module.parallax-2 {
+  background-image: url('../img/slavery.jpg');
+}
+
+section.module.parallax-3 {
+  background-image: url("../img/inmates.jpg");
+}
+
+section.module.parallax-4 {
+  background-image: url("../img/hqdefault.jpg");
+}
+
+section.module.parallax-5 {
+  background-image: url("../img/mi.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module ul li {
+    font-size: 20px;
+    list-style: disc;
+    padding: 10px 0px;
+    margin-left: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 60px;
+  }
+}
